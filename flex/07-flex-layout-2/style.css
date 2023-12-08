@@ -9,7 +9,11 @@ body {
 ul {
   list-style: none;
   margin: 0;
-  padding: 16px;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 a {
@@ -38,6 +42,7 @@ a {
   padding-bottom: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -45,6 +50,7 @@ a {
   background: royalblue;
   box-sizing: border-box;
   flex: 0 0 300px;
+  padding: 16px;
 }
 
 .card {
@@ -52,19 +58,18 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   flex-basis: 300px;
+  margin: 16px;
+  padding: 16px;
 }
 
 .content {
   display: flex;
   flex: 1;
-  flex-direction: row;
 }
 
 .information {
   display: flex;
   flex-direction: row;
   flex: 1;
-  gap: 16px;
   flex-wrap: wrap;
-  padding: 16px;
 }
