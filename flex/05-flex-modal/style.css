@@ -36,7 +36,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 30px;
+  flex-shrink: 0;
 }
 
 .close-button {
