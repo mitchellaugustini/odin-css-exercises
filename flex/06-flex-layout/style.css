@@ -42,7 +42,7 @@ li {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: #666;
 }
 
 .header {
@@ -53,9 +53,9 @@ a {
 
 .content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 450px;
+  align-items: center
 }
 
 .content-container {
